@@ -10,5 +10,5 @@ res.sendFile(path.join(__dirname,'views/home.html'))
 });
 
 app.listen(4000,()=>{
-    console.log(`http://localhost: ${PORT}`)
+    console.log(`http://localhost:${PORT}`)
 });
